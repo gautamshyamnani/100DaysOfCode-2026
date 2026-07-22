@@ -32,7 +32,7 @@ public class d38question1_leetcode {
         System.out.print("Enter Size of Array: ");
         n = sc.nextInt();
         int[] Arr2 = new int[n];
-        for(i=0;i<n;i++){
+        for(int i=0;i<n;i++){
             System.out.print(": ");
             Arr2[i]=sc.nextInt();}
         System.out.print(countStudents(Arr1,Arr2));
