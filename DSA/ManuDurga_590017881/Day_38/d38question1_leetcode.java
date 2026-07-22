@@ -36,5 +36,6 @@ public class d38question1_leetcode {
             System.out.print(": ");
             Arr2[i]=sc.nextInt();}
         System.out.print(countStudents(Arr1,Arr2));
+        sc.close();
     }}
 
